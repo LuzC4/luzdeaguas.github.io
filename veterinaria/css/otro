@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+
+
+
+	* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #F3DDF1;
+}
+
+.barra ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .barra a {
+        display: block;
+        padding: 2em;
+        background-color: #F9B53C;
+        text-decoration: none;
+        color: #191C26;
+    }
+    .barra a:hover {
+        background-color: #CC673B;
+    }
+    .barra ul li ul {
+        display: none;
+    }
+    .barra ul li a:hover + ul, .barra ul li ul:hover {
+        display: block;
