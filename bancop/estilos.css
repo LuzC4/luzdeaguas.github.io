@@ -1,0 +1,153 @@
+*{
+margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;}
+
+body{
+	background: white;
+}
+
+img {
+  max-height: 100%;
+  min-height: 100%;
+  margin: 0 2px 0 2px;
+  height: 50%
+  width:50%;
+
+}
+
+.header{
+	width: 100%;
+}
+.navegacion{
+	width: 900px;
+	margin: 30px auto;
+	margin-top: 0; 
+	background: #F1CB10; 
+
+}
+.navegacion ul{
+	list-style: none;
+
+}
+.menu > li {
+	position: relative;
+	display: inline-block;
+
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 50px;
+	color: #000;
+	font-family: 'verdana';
+	text-decoration: none;
+	
+}
+.menu li a:hover {
+	color: white;
+	transition: all .3s;	
+}
+
+
+
+
+
+
+.contenedor {
+	background: #fff;
+	border-radius: 4px;
+	width: 900px;
+	margin: 30px auto;
+	margin-top: 0; 
+	font-family: 'verdana';
+	max-width: 1000px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3,auto);
+
+
+}
+
+form{
+  margin : 0;
+
+  background: #9C9797 ;	
+  font-size: 150%;
+}
+h2{
+
+  background-color: #30302E;	
+  font-size: 100%
+}
+input{
+
+}
+.formulario{
+	height: 300px;
+width: 310px;
+}
+
+.contenedor .vertical-menu a {
+  background-color: #43413C ;
+  color: white; 
+  display: block; 
+  padding: 10px;
+  text-decoration: none; 
+  border-radius: 0;
+}
+
+.vertical-menu a:hover {
+  background-color: #F1CB10;
+}
+
+.vertical-menu a.active {
+  background-color: #201F1C;
+  color:#F1CB10;
+}
+
+.contenedor .footer{
+	grid-column-start: 1;
+	grid-column-end: 4;
+
+  background-color: #30302E ;
+  position: relative;
+  bottom: 0;
+width: 900px;
+  height: 80px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+.contenedor .widget-1,
+.contenedor .widget-2,
+.contenedor .widget-3,
+.contenedor .widget-4
+form,
+ {
+height: 300px;
+width: 310px;
+position: relative;
+
+} 
+table{
+		background: #D3D3D3;
+	color:#fff;
+ 	
+
+	margin: 5px;
+
+}
+th{
+	height: 50px;
+	background-color: #30302E;
+
+}
+td{
+	padding: 10px;	
+}
